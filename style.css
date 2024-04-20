@@ -1,5 +1,5 @@
 :root{
-    --base-color: #ffc600; 
+    --base: #ffc600; 
     --spacing: 10px;
     --blur: 10px;
 }
@@ -15,12 +15,12 @@
 
     img{
     padding: var(--spacing);
-    background: var(--base-color);
+    background: var(--base);
     filter: blur(var(--blur));
   }
 
   .h1{
-    color: var(--base-color);
+    color: var(--base);
   }
   .controls {
     margin-bottom: 50px;
